@@ -101,7 +101,7 @@ nav {
 
 .section-2 {
     position: relative;
-    margin-bottom: 200px;
+    padding-bottom: 200px;
 }
 
 .our-collect {
@@ -118,7 +118,7 @@ nav {
     position: absolute;
     left: 307px;
     right: 330px;
-    bottom: 345px;
+    top: -65px;
     opacity: 0.5;
     display: block;
     margin: 0 auto;
@@ -398,9 +398,11 @@ nav {
     color: #FEFCF7;
     width: 255px;
 }
-.section-4{
+
+.section-4 {
     padding-left: 165px;
 }
+
 .work {
     display: inline-block;
     margin-top: 351px;
@@ -673,10 +675,12 @@ nav {
     color: #FEFCF7;
     width: 540px;
 }
-.country-section-4{
+
+.country-section-4 {
     padding-left: 165px;
     padding-bottom: 168px;
 }
+
 .quarters {
     font-family: 'Fraunces';
     font-style: normal;
@@ -1198,4 +1202,26 @@ nav {
 
 .check:active {
     background: #66D2CF;
+}
+
+
+/* --------------responsive design-------------- */
+@media screen and (max-width:768px) {
+    .container {
+        width: 689px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+     .section-1 .container{
+         position: relative;
+     }
+    .section-1 .container {
+        content: "";
+        width: 689px;
+        height: 500px;
+
+        background-image: url('../images/coffee-cup-half.png');
+        background-repeat: no-repeat;
+        background-size: 689px 500px;
+    }
 }
