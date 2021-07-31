@@ -81,6 +81,7 @@ nav {
 }
 
 .section-1_btn {
+    cursor: pointer;
     text-decoration: none;
     background: #0E8784;
     border-radius: 6px;
@@ -319,6 +320,7 @@ nav {
 }
 
 .box-item {
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -478,6 +480,7 @@ nav {
 }
 
 .plan {
+    cursor: pointer;
     text-decoration: none;
     background: #0E8784;
     border-radius: 6px;
@@ -1202,26 +1205,4 @@ nav {
 
 .check:active {
     background: #66D2CF;
-}
-
-
-/* --------------responsive design-------------- */
-@media screen and (max-width:768px) {
-    .container {
-        width: 689px;
-        margin: 0 auto;
-        padding: 0 15px;
-    }
-     .section-1 .container{
-         position: relative;
-     }
-    .section-1 .container {
-        content: "";
-        width: 689px;
-        height: 500px;
-
-        background-image: url('../images/coffee-cup-half.png');
-        background-repeat: no-repeat;
-        background-size: 689px 500px;
-    }
 }
